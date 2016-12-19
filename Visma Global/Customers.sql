@@ -1,3 +1,9 @@
+/*
+    Default query for Customers from Visma Global. 
+    Remember to change [SCHEMA] to the correct schema for the database.
+
+    Copyright ON IT AS 2016
+*/
 SELECT [name] = Cust.Name, 
 	   [number] = Cust.CustomerNo, 
 	   [accountReference] = Cust.CustomerNo,
