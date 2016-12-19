@@ -37,7 +37,7 @@ SELECT
     [mainContact.web] = NULL,
     [mainContact.phone1] = NULL,
     [mainContact.fax] = NULL,
-    
+
     [deliveryContact.name] = NULL,
     [deliveryContact.email] = NULL,
     [deliveryContact.phone1] = NULL,
@@ -50,7 +50,11 @@ SELECT
     [invoiceContact.phone2] = NULL,
     [invoiceContact.fax] = NULL,
 
-    [acceptAutoInvoices] = 0,
-    [printInvoices] = 0
+    [acceptAutoInvoices] = 1,
+    [printInvoices] = 0,
+    [sendInvoicesByEmail] = 0,
+    [printStatements] = 1,
+    [sendStatementsByEmail] = 0,
+    [printMultiCurrencyStatements] = 0
 
 FROM dbo.TableName
