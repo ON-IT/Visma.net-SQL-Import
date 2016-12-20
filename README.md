@@ -29,9 +29,10 @@ It will try to connect to localhost using a trusted connection as default. Selec
 
 ### Creating the query and previewing the import
 There's a tab for each entity type you can import. Select the entity you want and create your query. 
-Press "Load entities" in order to create a preview of what will be imported to Visma.net. This will also fetch 
-all existing customers from Visma.net and do a duplicate check on Name, CorporateId and vatRegistrationId in order to 
-avoid duplicates.
+Press "Load entities" in order to create a preview of what will be imported to Visma.net. 
+
+**This will also fetch all existing customers from Visma.net and do a duplicate check on Name, CorporateId and VatRegistrationId in order to 
+avoid duplicates.**
 
 ![Query and import](Images/CustomerImport.PNG)
 
