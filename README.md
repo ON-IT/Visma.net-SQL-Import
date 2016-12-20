@@ -43,4 +43,4 @@ Tip: Check for errors or warnings here when you've loaded a query.
 ![Logviewer](Images/Logviewer.PNG)
 
 ## Get in touch
-Contact Ole by emailing [ole@on-it.no](mailto:ole@on-it.no) or calling +47 99508374.
+Contact Ole Melhus by emailing [ole@on-it.no](mailto:ole@on-it.no) or calling +47 99508374.
