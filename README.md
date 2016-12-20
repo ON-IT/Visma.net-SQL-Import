@@ -2,6 +2,8 @@
 
 Convert from **any** ERP system that uses **SQL Server** using the Visma.net SQL Import from ON IT AS.
 
+See the bottom of this page for contact information.
+
 ## Currently supported
 
  * Customers
