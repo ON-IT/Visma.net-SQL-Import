@@ -15,7 +15,7 @@ Convert from **any** ERP system that uses **SQL Server** using the Visma.net SQL
  * [Uni Micro](Uni Micro)
  * [Flat File](Flat File)
 
- You can create custom queries from scratch if you want, but I'd suggest you start with the files in the [Boilerplates folder](bolderplate/)
+You can create custom queries from scratch if you want, but I'd suggest you start with the files in the [Boilerplates folder](bolderplate/)
 
 ## Screenshots
 
