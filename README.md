@@ -10,9 +10,9 @@ Convert from **any** ERP system that uses **SQL Server** using the Visma.net SQL
 
 ## ERP Systems
 
- * [Visma Global](../tree/master/Visma Global)
- * [Visma Business](../tree/master/Visma Business)
- * [Uni Micro](../tree/master/Uni Micro)
+ * [Visma Global](Visma Global)
+ * [Visma Business](Visma Business)
+ * [Uni Micro](Uni Micro)
 
 ## Create new queries from boilerplate
 
