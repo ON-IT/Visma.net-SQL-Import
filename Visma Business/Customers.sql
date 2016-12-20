@@ -22,7 +22,7 @@ SELECT
     [mainAddress.addressLine1] = a.ad1, 
     [mainAddress.addressLine2] = a.ad2, 
     [mainAddress.addressLine3] = a.ad3, 
-    [mainAddress.country] = a.Ctry,
+    [mainAddress.country] = ISNULL(Ctry.ISO, 'NO'),
     [mainAddress.postalCode] = a.PNo,
 
 	[mainContact.name] = a.Nm,
@@ -65,6 +65,7 @@ SELECT
 
 FROM dbo.Actor A
 LEFT OUTER JOIN dbo.cur cur on cur.CurNo = A.Cur
+LEFT OUTER JOIN dbo.ctry ctry on ctry.CtryNo = A.ctry
 -- Make sure the e-mail address is valid, and remove those who are not.
 OUTER APPLY (SELECT CASE WHEN A.MailAd LIKE '%@%.%' THEN A.MailAd ELSE NULL END MailAd)Mail
 WHERE A.CustNo > 0
