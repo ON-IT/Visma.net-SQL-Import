@@ -21,7 +21,7 @@ You can create custom queries from scratch if you want, but I'd suggest you star
 
 ## Screenshots
 
-### The setup tab
+### Setup
 First setup your token and select the company you want to import to. Then setup the connection to your SQL Server. 
 It will try to connect to localhost using a trusted connection as default. Select the database you want to import from.
 
