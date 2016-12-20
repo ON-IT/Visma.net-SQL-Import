@@ -15,7 +15,7 @@ See the bottom of this page for contact information.
  * [Visma Global](Visma Global)
  * [Visma Business](Visma Business)
  * [Uni Micro](Uni Micro)
- * [Flat File](Flat File)
+ * [Excel or CSV](Flat File)
 
 You can create custom queries from scratch if you want, but I'd suggest you start with the files in the [Boilerplates folder](bolderplate/)
 
