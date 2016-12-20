@@ -39,3 +39,6 @@ Get a full overview of what's going on by going to the Log tab.
 Tip: Check for errors or warnings here when you've loaded a query.
 
 ![Logviewer](Images/Logviewer.PNG)
+
+## Get in touch
+Contact Ole by emailing [ole@on-it.no](mailto:ole@on-it.no) or calling +47 99508374.
