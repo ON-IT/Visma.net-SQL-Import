@@ -1,10 +1,5 @@
-USE PDATA
-/*
-    Use this as a starter in order to create a new Customer query
-    */
 SELECT distinct
     [name] = C.NAME, 
-    --[number] = C.CUSTID, 
     [accountReference] = c.CUSTID,
     [corporateId] = ISNULL(ISNULL(c.NormalizedOrgNo, C.vatno), C.Enterno),     
     [customerClass] = '1',

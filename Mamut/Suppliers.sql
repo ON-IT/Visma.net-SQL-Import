@@ -1,6 +1,5 @@
 SELECT 
     [name] = c.name,
-    --[number] = a.SupNo, 
     [accountReference] = c.VENDID,
     [corporateId] = ISNULL(ISNULL(c.NormalizedOrgNo, C.vatno), C.Enterno),     
     [vatRegistrationId] = ISNULL(ISNULL(c.NormalizedOrgNo, C.vatno), C.Enterno),     
@@ -22,7 +21,6 @@ SELECT
     [mainContact.phone1] = c.PHONE1,
     [mainContact.fax] = c.FAX1,
 
-	-- You might want to set these based on the information the Visma Business consultant gives you.
 	[supplierAddress.addressLine1] = del.STREET, 
 	[supplierAddress.addressLine2] = NULL, 
 	[supplierAddress.addressLine3] = NULL, 
