@@ -12,11 +12,11 @@ Convert from **any** ERP system that uses **SQL Server** using the Visma.net SQL
 
 ## ERP Systems
 
- * [Visma Global](Visma Global)
- * [Visma Business](Visma Business)
- * [Uni Micro](Uni Micro)
+ * [Visma Global](Visma%20Global)
+ * [Visma Business](Visma%20Business)
+ * [Uni Micro](Uni%20Micro)
  * [Mamut](Mamut)
- * [Excel or CSV](Flat File)
+ * [Excel or CSV](Flat%20File)
 
 You can create custom queries from scratch if you want, but I'd suggest you start with the files in the [Boilerplates folder](bolderplate/)
 
